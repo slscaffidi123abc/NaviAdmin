@@ -1,0 +1,994 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<div class="text-center">
+    <h1 class="display-4">Welcome Administrator</h1>
+    <p><i>We are Driven by UpTime</i> <a href="https://www.navistar.com/navistar/"></a></p>
+</div>
+<!DOCTYPE html>
+<div class="container">
+</div>
+<div style="float:right">
+    <input type='button' class='btn button-next' name='next' value='Next' />
+
+    <div style="float:left">
+
+        <input type='button' class='btn button-previous' name='previous' value='Previous' />
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table">
+
+        <thead>
+            <button type="button" class="btn btn-primary btn-sm btn-block">Run Completed Monthly Headcount File</button>
+</div>
+
+
+<th>
+    <select>
+        //period 1
+        <option value="November">Period 1 November</option>
+        <option value="November">Period 2 December</option>
+        <option value="November">Period 3 January</option>
+        <option value="November">Period 4 February</option>
+        <option value="November">Period 5 March</option>
+        <option value="November">Period 6 April</option>
+        <option value="November">Period 7 May</option>
+        <option value="December">Period 8 June</option>
+        <option value="November">Period 9 July</option>
+        <option value="November">Period 10 August</option>
+        <option value="November">Period 11 September</option>
+        <option value="November">Period 12 October</option>
+    </select>
+</th>
+
+<th>
+    <select>
+        <option value="admin">Adminstrator</option>
+        <option value="slt">SLT</option>
+        <option value="deptO">Department Owner</option>
+    </select>
+</th>
+<th>
+    <form>
+        Department Owner<br>
+        <input type="text" name="Department Owner">
+        <br>
+    </form>
+</th>
+
+<th>
+    <form>
+        Approved Positions<br>
+        <input type="text" name="Approved Positions Count">
+        <br>
+    </form>
+</th>
+
+<th>
+    Contractors
+    <form>
+
+        <input type="text" name="Contractor Count">
+        <br>
+    </form>
+</th>
+<th>
+    Open Position Count
+    <form>
+        <input type="text" name="Open PositionCount">
+        <br>
+    </form>
+</th>
+
+<th>
+
+    <div class="form-check-inline">
+        <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio">Auto Submit
+        </label>
+    </div>
+</th>
+
+<th>
+    <div class="form-check-inline">
+        <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optradio">Submit Changes
+        </label>
+    </div>
+</th>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+<tr>
+
+    <th>
+        <select>
+            //period 1
+            <option value="November">Period 1 November</option>
+            <option value="November">Period 2 December</option>
+            <option value="November">Period 3 January</option>
+            <option value="November">Period 4 February</option>
+            <option value="November">Period 5 March</option>
+            <option value="November">Period 6 April</option>
+            <option value="November">Period 7 May</option>
+            <option value="December">Period 8 June</option>
+            <option value="November">Period 9 July</option>
+            <option value="November">Period 10 August</option>
+            <option value="November">Period 11 September</option>
+            <option value="November">Period 12 October</option>
+        </select>
+    </th>
+
+    <th>
+        <select>
+            <option value="admin">Adminstrator</option>
+            <option value="slt">SLT</option>
+            <option value="deptO">Department Owner</option>
+        </select>
+    </th>
+    <th>
+        <form>
+            Department Owner<br>
+            <input type="text" name="Department Owner">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        <form>
+            Approved Positions<br>
+            <input type="text" name="Approved Positions Count">
+            <br>
+        </form>
+    </th>
+
+    <th>
+        Contractors
+        <form>
+
+            <input type="text" name="Contractor Count">
+            <br>
+        </form>
+    </th>
+    <th>
+        Open Position Count
+        <form>
+            <input type="text" name="Open PositionCount">
+            <br>
+        </form>
+    </th>
+
+    <th>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Auto Submit
+            </label>
+        </div>
+    </th>
+
+    <th>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optradio">Submit Changes
+            </label>
+        </div>
+
+
+</tr>
+
+
+
+
+
+
+
+<section>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</section>
+
+<section>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</section>
+
+<section>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</section>
+<section>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</section>
